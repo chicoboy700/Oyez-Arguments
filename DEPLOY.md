@@ -1,5 +1,8 @@
 # Deploying Oyez Arguments to GitHub Pages (no command line needed)
 
+> ✅ **Already deployed and live at: https://chicoboy700.github.io/Oyez-Arguments/**
+> The steps below document how it was done (and how to redeploy from scratch if ever needed).
+
 This puts your site online at a free, phone-openable URL like
 `https://YOURNAME.github.io/oyez-arguments/`.
 

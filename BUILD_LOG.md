@@ -324,3 +324,49 @@ Verification isn't ceremony — it pays. A single checking pass turned up 25 sil
 links to important cases that looked perfectly fine in the code. If you build on someone
 else's identifiers, use *their* exact reference; don't reconstruct it from a field that's
 "usually the same." Usually isn't always.
+
+---
+
+## Entry 9 — 2026-06-19 — Going live on the internet
+
+**What we were trying to do (plain English).**
+Put the finished site on the real internet at a link you can open on any phone.
+
+**The decision/instruction that drove it.**
+The owner created a GitHub account and repository and asked me to deploy it directly using
+control of their browser.
+
+**What actually happened.**
+- **A privacy guardrail first.** The project had been built inside a folder that also holds
+  lots of unrelated personal files. Publishing that whole folder would have leaked private
+  documents to a public website. So I assembled a **clean, separate folder containing only
+  the project** — the site, the journal, the tools, this log — and published *that*. Nothing
+  personal went out.
+- Set the clean folder up as a *git repository* — *jargon:* git is the system that tracks
+  every version of a project; a "repository" is the tracked project plus its history.
+- Found the owner was already signed in to GitHub (as `chicoboy700`) and had already made an
+  empty repository named *Oyez-Arguments*. I connected our folder to it and uploaded
+  ("pushed") everything. The sign-in was handled by the computer's own secure credential
+  helper, so I never saw or touched any password.
+- Turned on **GitHub Pages** — GitHub's free website hosting — pointing it at the site's
+  `docs` folder. About a minute later it reported: **the site is live.**
+- **Then I tested the *live* site, not just the local copy.** On the public URL I opened a
+  recent high-profile case (*Trump v. CASA*), pressed play, and confirmed the audio streamed
+  with the clock advancing and the full 2-hour-16-minute length loaded; the lock-screen
+  info registered as "playing." I searched "Clement" and the full 7,566-person index loaded
+  and returned his 125 arguments. The fix from the last entry held up live: the case opened
+  via its proper address even though its docket has capital letters.
+
+**The site is live at:** https://chicoboy700.github.io/Oyez-Arguments/
+
+**What's left — and it's genuinely the owner's to do.** The one promise only a real iPhone
+can keep: open the link, add it to the home screen, start a recording, lock the phone, get
+a text, switch apps — and confirm the audio keeps playing. Everything is in place to make
+that work; iPhones are just the strictest about background audio, so it has to be tried on
+the actual device.
+
+**Try-it-yourself takeaway.**
+Two habits worth stealing. First, before publishing anything, ask "what *else* is in this
+folder?" — publish a clean, purpose-built copy, never your whole workspace. Second, "it
+works on my machine" isn't "it works": always re-test on the *live* URL, because hosting
+can differ from local in small, surprising ways.

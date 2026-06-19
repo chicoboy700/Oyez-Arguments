@@ -143,6 +143,26 @@ children.push(bullet([t("Listen: ", { bold: true }), t("audio streams live from 
 children.push(bullet([t("Install: ", { bold: true }), t("add it to your home screen so it behaves like an app, which helps audio keep playing in the background.")]));
 children.push(P([t("Oyez is credited on every screen, and the whole thing is for personal, non-commercial use, honoring Oyez’s license.")], { spacing: { before: 120, after: 120 } }));
 
+// ---- Going live ----
+children.push(H1("Going live"));
+children.push(P([
+  t("The last step was putting it on the real internet. One guardrail came first: the project had been built inside a folder that also held unrelated personal files, so rather than publish that, I assembled a clean, separate copy containing "),
+  t("only", { italics: true }),
+  t(" the project and published that — nothing private went out. Then I uploaded it to a free GitHub repository and switched on GitHub's free website hosting (Pages). About a minute later it was live."),
+]));
+children.push(P([
+  t("Crucially, I then tested the "),
+  t("live", { italics: true }),
+  t(" site, not just the local copy: opened a recent high-profile case, pressed play and watched it stream the full two-hour-plus recording, and searched a lawyer's name to confirm the whole 7,566-person index loaded over the network. “Works on my machine” isn’t “works” — hosting can differ in small ways, so the real URL is the only real test."),
+]));
+children.push(new Paragraph({
+  spacing: { before: 60, after: 160 },
+  border: { left: { style: BorderStyle.SINGLE, size: 18, color: GOLD, space: 10 } },
+  indent: { left: 180 },
+  children: [t("Live at:  ", { bold: true, color: GOLD }),
+    new ExternalHyperlink({ link: "https://chicoboy700.github.io/Oyez-Arguments/", children: [new TextRun({ text: "chicoboy700.github.io/Oyez-Arguments", style: "Hyperlink" })] })],
+}));
+
 // ---- Honest limits ----
 children.push(H1("An honest note on the hard part"));
 children.push(P([

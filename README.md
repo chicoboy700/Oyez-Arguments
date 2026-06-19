@@ -4,8 +4,8 @@ A simple, mobile-first **website** for listening to U.S. Supreme Court **oral ar
 a phone — a friendlier front-end over [Oyez](https://www.oyez.org), whose own mobile
 experience is weak. Personal, non-commercial use.
 
-**Live site:** enabled via GitHub Pages from the [`docs/`](docs/) folder (see
-[DEPLOY.md](DEPLOY.md)).
+**▶ Live site: https://chicoboy700.github.io/Oyez-Arguments/**
+(served by GitHub Pages from the [`docs/`](docs/) folder — see [DEPLOY.md](DEPLOY.md)).
 
 ## What it does
 - Browse by **term** (year) → that term's argued cases → a **player**.
