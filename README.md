@@ -4,7 +4,7 @@ A simple, mobile-first **website** for listening to U.S. Supreme Court **oral ar
 a phone — a friendlier front-end over [Oyez](https://www.oyez.org), whose own mobile
 experience is weak. Personal, non-commercial use.
 
-**▶ Live site: https://chicoboy700.github.io/Oyez-Arguments/**
+**▶ Live site: https://anon5303210.github.io/Oyez-Arguments/**
 (served by GitHub Pages from the [`docs/`](docs/) folder — see [DEPLOY.md](DEPLOY.md)).
 
 ## What it does

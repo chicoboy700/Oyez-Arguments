@@ -344,7 +344,7 @@ control of their browser.
   personal went out.
 - Set the clean folder up as a *git repository* — *jargon:* git is the system that tracks
   every version of a project; a "repository" is the tracked project plus its history.
-- Found the owner was already signed in to GitHub (as `chicoboy700`) and had already made an
+- Found the owner was already signed in to GitHub (as `anon5303210`) and had already made an
   empty repository named *Oyez-Arguments*. I connected our folder to it and uploaded
   ("pushed") everything. The sign-in was handled by the computer's own secure credential
   helper, so I never saw or touched any password.
@@ -357,7 +357,7 @@ control of their browser.
   and returned his 125 arguments. The fix from the last entry held up live: the case opened
   via its proper address even though its docket has capital letters.
 
-**The site is live at:** https://chicoboy700.github.io/Oyez-Arguments/
+**The site is live at:** https://anon5303210.github.io/Oyez-Arguments/
 
 **What's left — and it's genuinely the owner's to do.** The one promise only a real iPhone
 can keep: open the link, add it to the home screen, start a recording, lock the phone, get
